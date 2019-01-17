@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	background-color: #FFFFFF;
+	font-family: Open Sans;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #A7A7A7;
+}
+a:visited{
+	color: #A7A7A7;
+}
+.container{
+	max-width: 1366px;
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+.centered{
+	text-align: center;
+}
+#header{
+	padding: 17px 0px;
+	color: #000000;
+}
+#header img{
+	width: 30px;
+	height: 30px;
+	margin: 0px 20px 0px 145px;
+	transform: translateY(15%);
+}
+#header h1{
+	display: inline-block;
+}
+#intro{
+	font-size: 48px;
+	background-color: yellow;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 96px 0px;
+	background-image: url('img/learn.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#about{
+	background-color: #FFFFFF;
+
+}
+#about section{
+	padding: 15px 145px;
+}
+#about section h2{
+	padding: 10px 0px;
+}
+#ed-sys{
+	background-color: #F1F1F1;
+	height: 439px;
+	font-size: 46px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+#ed-sys img{
+	width: 733px;
+}
+#ed-sys .text{
+	margin-left: 145px;
+}
+.btn{
+	border-radius: 30px;
+	margin: 40px 10.5px;
+	font-size: 16px;
+	background-color: #00B1FF;
+	color: #FFFFFF;
+	border: 1px solid #00B1FF; 
+}
+.btn.active{
+	background-color: #FFFFFF;
+	color: #00B1FF;
+}
+#book{
+	padding: 16px 42px 16px 43px;
+}
+#request{
+	padding: 16px 39px;
+}
+#footer a{
+	margin: 20px 12px;
+	font-size: 12px;
+}
